@@ -1,0 +1,12 @@
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Core\ProductManagement.Domain\bin\Debug\net6.0\ProductManagement.Domain.deps.json
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Core\ProductManagement.Domain\bin\Debug\net6.0\ProductManagement.Domain.dll
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Core\ProductManagement.Domain\bin\Debug\net6.0\ProductManagement.Domain.pdb
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Core\ProductManagement.Domain\obj\Debug\net6.0\ProductManagement.Domain.csproj.AssemblyReference.cache
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Core\ProductManagement.Domain\obj\Debug\net6.0\ProductManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Core\ProductManagement.Domain\obj\Debug\net6.0\ProductManagement.Domain.AssemblyInfoInputs.cache
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Core\ProductManagement.Domain\obj\Debug\net6.0\ProductManagement.Domain.AssemblyInfo.cs
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Core\ProductManagement.Domain\obj\Debug\net6.0\ProductManagement.Domain.csproj.CoreCompileInputs.cache
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Core\ProductManagement.Domain\obj\Debug\net6.0\ProductManagement.Domain.dll
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Core\ProductManagement.Domain\obj\Debug\net6.0\refint\ProductManagement.Domain.dll
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Core\ProductManagement.Domain\obj\Debug\net6.0\ProductManagement.Domain.pdb
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Core\ProductManagement.Domain\obj\Debug\net6.0\ref\ProductManagement.Domain.dll

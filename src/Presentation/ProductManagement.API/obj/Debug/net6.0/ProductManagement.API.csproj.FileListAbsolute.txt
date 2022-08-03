@@ -14,7 +14,6 @@ D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Pre
 D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Presentation\ProductManagement.API\obj\Debug\net6.0\ProductManagement.API.AssemblyInfoInputs.cache
 D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Presentation\ProductManagement.API\obj\Debug\net6.0\ProductManagement.API.AssemblyInfo.cs
 D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Presentation\ProductManagement.API\obj\Debug\net6.0\ProductManagement.API.csproj.CoreCompileInputs.cache
-D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Presentation\ProductManagement.API\obj\Debug\net6.0\ProductManagement.API.MvcApplicationPartsAssemblyInfo.cs
 D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Presentation\ProductManagement.API\obj\Debug\net6.0\ProductManagement.API.MvcApplicationPartsAssemblyInfo.cache
 D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Presentation\ProductManagement.API\obj\Debug\net6.0\staticwebassets.build.json
 D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Presentation\ProductManagement.API\obj\Debug\net6.0\staticwebassets.development.json
@@ -25,3 +24,19 @@ D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Pre
 D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Presentation\ProductManagement.API\obj\Debug\net6.0\ProductManagement.API.pdb
 D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Presentation\ProductManagement.API\obj\Debug\net6.0\ProductManagement.API.genruntimeconfig.cache
 D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Presentation\ProductManagement.API\obj\Debug\net6.0\ref\ProductManagement.API.dll
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Presentation\ProductManagement.API\bin\Debug\net6.0\AutoMapper.dll
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Presentation\ProductManagement.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Presentation\ProductManagement.API\bin\Debug\net6.0\MediatR.dll
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Presentation\ProductManagement.API\bin\Debug\net6.0\MediatR.Contracts.dll
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Presentation\ProductManagement.API\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Presentation\ProductManagement.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Presentation\ProductManagement.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Presentation\ProductManagement.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Presentation\ProductManagement.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Presentation\ProductManagement.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Presentation\ProductManagement.API\bin\Debug\net6.0\ProductManagement.Application.dll
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Presentation\ProductManagement.API\bin\Debug\net6.0\ProductManagement.Domain.dll
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Presentation\ProductManagement.API\bin\Debug\net6.0\ProductManagement.Persistence.dll
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Presentation\ProductManagement.API\bin\Debug\net6.0\ProductManagement.Application.pdb
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Presentation\ProductManagement.API\bin\Debug\net6.0\ProductManagement.Persistence.pdb
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Presentation\ProductManagement.API\bin\Debug\net6.0\ProductManagement.Domain.pdb

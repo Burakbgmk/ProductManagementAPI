@@ -1,0 +1,15 @@
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Core\ProductManagement.Application\bin\Debug\net6.0\ProductManagement.Application.deps.json
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Core\ProductManagement.Application\bin\Debug\net6.0\ProductManagement.Application.dll
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Core\ProductManagement.Application\bin\Debug\net6.0\ProductManagement.Application.pdb
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Core\ProductManagement.Application\bin\Debug\net6.0\ProductManagement.Domain.dll
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Core\ProductManagement.Application\bin\Debug\net6.0\ProductManagement.Domain.pdb
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Core\ProductManagement.Application\obj\Debug\net6.0\ProductManagement.Application.csproj.AssemblyReference.cache
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Core\ProductManagement.Application\obj\Debug\net6.0\ProductManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Core\ProductManagement.Application\obj\Debug\net6.0\ProductManagement.Application.AssemblyInfoInputs.cache
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Core\ProductManagement.Application\obj\Debug\net6.0\ProductManagement.Application.AssemblyInfo.cs
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Core\ProductManagement.Application\obj\Debug\net6.0\ProductManagement.Application.csproj.CoreCompileInputs.cache
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Core\ProductManagement.Application\obj\Debug\net6.0\ProductManagement.Application.csproj.CopyComplete
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Core\ProductManagement.Application\obj\Debug\net6.0\ProductManagement.Application.dll
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Core\ProductManagement.Application\obj\Debug\net6.0\refint\ProductManagement.Application.dll
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Core\ProductManagement.Application\obj\Debug\net6.0\ProductManagement.Application.pdb
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Core\ProductManagement.Application\obj\Debug\net6.0\ref\ProductManagement.Application.dll
