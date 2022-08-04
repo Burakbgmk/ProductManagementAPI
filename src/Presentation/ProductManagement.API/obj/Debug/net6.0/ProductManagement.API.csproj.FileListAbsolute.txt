@@ -40,3 +40,4 @@ D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Pre
 D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Presentation\ProductManagement.API\bin\Debug\net6.0\ProductManagement.Application.pdb
 D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Presentation\ProductManagement.API\bin\Debug\net6.0\ProductManagement.Persistence.pdb
 D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Presentation\ProductManagement.API\bin\Debug\net6.0\ProductManagement.Domain.pdb
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Presentation\ProductManagement.API\obj\Debug\net6.0\ProductManagement.API.MvcApplicationPartsAssemblyInfo.cs

@@ -11,22 +11,22 @@ using System.Threading.Tasks;
 
 namespace ProductManagement.Application.Features.Queries.GetProductById
 {
-    public class GetProductByIdQuerryHandler : IRequestHandler<GetProductByIdQuerry, ServiceResponse<ProductViewDto>>
+    public class GetProductByIdQuerryHandler : IRequestHandler<GetProductByIdQuerry, ServiceResponse<GetProductByIdViewModel>>
     {
-        private readonly IProductRepository productRepository;
+        private readonly IProductReadRepository productRepository;
         private readonly IMapper mapper;
 
-        public GetProductByIdQuerryHandler(IProductRepository productRepository, IMapper mapper)
+        public GetProductByIdQuerryHandler(IProductReadRepository productRepository, IMapper mapper)
         {
             this.productRepository = productRepository;
             this.mapper = mapper;
         }
 
-        public async Task<ServiceResponse<ProductViewDto>> Handle(GetProductByIdQuerry request, CancellationToken cancellationToken)
+        public async Task<ServiceResponse<GetProductByIdViewModel>> Handle(GetProductByIdQuerry request, CancellationToken cancellationToken)
         {
             var product = await productRepository.GetByIdAsync(request.Id);
-            var dto = mapper.Map<ProductViewDto>(product);
-            return new ServiceResponse<ProductViewDto>(dto);
+            var dto = mapper.Map<GetProductByIdViewModel>(product);
+            return new ServiceResponse<GetProductByIdViewModel>(dto);
         }
     }
 }

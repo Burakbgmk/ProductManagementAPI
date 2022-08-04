@@ -1,10 +1,6 @@
 ﻿using AutoMapper;
 using ProductManagement.Application.Features.Commands.CreateProduct;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using ProductManagement.Application.Features.Queries.GetProductById;
 
 namespace ProductManagement.Application.Mapping
 {
@@ -12,7 +8,9 @@ namespace ProductManagement.Application.Mapping
     {
         public GeneralMapping()
         {
-            CreateMap<Domain.Entities.Product, Dtos.ProductViewDto>().ReverseMap();CreateMap<Domain.Entities.Product, CreateProductCommand>().ReverseMap();
+            CreateMap<Domain.Entities.Product, Dtos.ProductViewDto>().ReverseMap();
+            CreateMap<Domain.Entities.Product, CreateProductCommand>().ReverseMap();
+            CreateMap<Domain.Entities.Product, GetProductByIdViewModel>().ReverseMap();
         }
     }
 }

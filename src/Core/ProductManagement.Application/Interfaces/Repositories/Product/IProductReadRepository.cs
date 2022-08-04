@@ -7,9 +7,8 @@ using System.Threading.Tasks;
 
 namespace ProductManagement.Application.Interfaces.Repositories
 {
-    public interface IProductRepository: IGenericRepository<Product>
+    public interface IProductReadRepository : IReadRepository<Product>
     {
-        
 
     }
 }

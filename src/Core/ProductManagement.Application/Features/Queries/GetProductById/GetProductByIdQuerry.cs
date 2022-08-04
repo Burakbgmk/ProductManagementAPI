@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace ProductManagement.Application.Features.Queries.GetProductById
 {
-    public class GetProductByIdQuerry : IRequest<ServiceResponse<ProductViewDto>>
+    public class GetProductByIdQuerry : IRequest<ServiceResponse<GetProductByIdViewModel>>
     {
         public Guid Id { get; set; }
 

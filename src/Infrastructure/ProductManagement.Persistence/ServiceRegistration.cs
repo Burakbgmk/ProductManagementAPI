@@ -11,7 +11,8 @@ namespace ProductManagement.Persistence
         public static void AddPeristanceServices(this IServiceCollection serviceCollection)
         {
             serviceCollection.AddDbContext<AppDbContext>(opt => opt.UseInMemoryDatabase("memoryDb"));
-            serviceCollection.AddTransient<IProductRepository, ProductRepository>();
+            serviceCollection.AddTransient<IProductReadRepository, ProductReadRepository>();
+            serviceCollection.AddTransient<IProductWriteRepository, ProductWriteRepository>();
         }
     }
 }
