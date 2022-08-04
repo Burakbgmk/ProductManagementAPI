@@ -28,7 +28,7 @@ namespace ProductManagement.Application.Features.Commands.UpdateProduct
             var updatedProduct = writeRepository.UpdateAsync(product);
             updatedProduct.Name = request.Name != default ? request.Name : product.Name;
             updatedProduct.Quantity = request.Quantity != default ? request.Quantity : product.Quantity;
-            updatedProduct.Value = request.Value != default ? request.Value : product.Value;
+            updatedProduct.Price = request.Value != default ? request.Value : product.Price;
             await writeRepository.CommitAsync();
             return new ServiceResponse<Guid>(updatedProduct.Id);
 
