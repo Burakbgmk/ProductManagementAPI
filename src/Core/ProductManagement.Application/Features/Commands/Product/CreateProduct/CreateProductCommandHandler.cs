@@ -22,7 +22,7 @@ namespace ProductManagement.Application.Features.Commands.CreateProduct
             await productRepository.AddAsync(product);
             await productRepository.CommitAsync();
 
-            return new ServiceResponse<Guid>(product.Id);
+            return ServiceResponse<Guid>.Success(product.Id,200);
         }
     }
 }

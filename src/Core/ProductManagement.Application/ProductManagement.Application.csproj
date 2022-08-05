@@ -18,9 +18,4 @@
     <ProjectReference Include="..\ProductManagement.Domain\ProductManagement.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Features\Commands\Category\DeleteCategory\" />
-    <Folder Include="Features\Commands\Category\UpdateCategory\" />
-  </ItemGroup>
-
 </Project>

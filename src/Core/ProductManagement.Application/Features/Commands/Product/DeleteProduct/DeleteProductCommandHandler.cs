@@ -15,13 +15,11 @@ namespace ProductManagement.Application.Features.Commands.DeleteProduct
     {
         private readonly IProductWriteRepository writeRepository;
         private readonly IProductReadRepository readRepository;
-        private readonly IMapper mapper;
 
-        public DeleteProductCommandHandler(IProductWriteRepository writeRepository, IProductReadRepository readRepository, IMapper mapper)
+        public DeleteProductCommandHandler(IProductWriteRepository writeRepository, IProductReadRepository readRepository)
         {
             this.writeRepository = writeRepository;
             this.readRepository = readRepository;
-            this.mapper = mapper;
         }
 
         public async Task<ServiceResponse<NoDataDto>> Handle(DeleteProductCommand request, CancellationToken cancellationToken)
@@ -29,8 +27,7 @@ namespace ProductManagement.Application.Features.Commands.DeleteProduct
             var product = await readRepository.GetByIdAsync(request.Id);
             await writeRepository.DeleteAsync(product);
             await writeRepository.CommitAsync();
-
-            return new ServiceResponse<NoDataDto>();
+            return ServiceResponse<NoDataDto>.Success(204);
         }
     }
 }

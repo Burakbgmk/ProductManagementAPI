@@ -24,8 +24,10 @@ namespace ProductManagement.Application.Features.Queries.GetAllProducts
         public async Task<ServiceResponse<List<ProductViewDto>>> Handle(GetAllProductQuerry request, CancellationToken cancellationToken)
         {
             var products = await productRepository.GetAllAsync();
+            if (!products.Any())
+                return ServiceResponse<List<ProductViewDto>>.Fail("No product is found",404,true);
             var viewModel = mapper.Map<List<ProductViewDto>>(products);
-            return new ServiceResponse<List<ProductViewDto>>(viewModel);
+            return ServiceResponse<List<ProductViewDto>>.Success(viewModel, 200);
         }
     }
 }

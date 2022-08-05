@@ -30,7 +30,7 @@ namespace ProductManagement.Application.Features.Commands.UpdateProduct
             updatedProduct.Quantity = request.Quantity != default ? request.Quantity : product.Quantity;
             updatedProduct.Price = request.Value != default ? request.Value : product.Price;
             await writeRepository.CommitAsync();
-            return new ServiceResponse<Guid>(updatedProduct.Id);
+            return ServiceResponse<Guid>.Success(updatedProduct.Id,200);
 
         }
     }

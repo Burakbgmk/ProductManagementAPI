@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace ProductManagement.Application.Wrappers
 {
-    public class PageResponse<T> : ServiceResponse<T>
+    public class PageResponse<T>
     {
         public int PageNumber {get; set;}
         public int PageSize {get; set;}
-        public PageResponse(T value): base(value)
+        public PageResponse(T value)
         {
 
         }

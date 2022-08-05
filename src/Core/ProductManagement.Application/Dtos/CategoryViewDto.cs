@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProductManagement.Application.Wrappers
+namespace ProductManagement.Application.Dtos
 {
-    public class BaseResponse
+    public class CategoryViewDto
     {
         public Guid Id { get; set; }
-        public bool Success { get; set; }
-        public string Message { get; set; }
+        public string Name { get; set; }
     }
 }

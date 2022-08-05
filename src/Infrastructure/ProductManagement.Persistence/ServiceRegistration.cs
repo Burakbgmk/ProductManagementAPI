@@ -13,6 +13,8 @@ namespace ProductManagement.Persistence
             serviceCollection.AddDbContext<AppDbContext>(opt => opt.UseSqlServer(Configuration.ConnectionString));
             serviceCollection.AddTransient<IProductReadRepository, ProductReadRepository>();
             serviceCollection.AddTransient<IProductWriteRepository, ProductWriteRepository>();
+            serviceCollection.AddTransient<ICategoryReadRepository, CategoryReadRepository>();
+            serviceCollection.AddTransient<ICategoryWriteRepository, CategoryWriteRepository>();
         }
     }
 }
