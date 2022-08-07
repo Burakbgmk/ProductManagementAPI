@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using MediatR;
+using Microsoft.EntityFrameworkCore;
 using ProductManagement.Application.Dtos;
 using ProductManagement.Application.Interfaces.Repositories;
 using ProductManagement.Application.Wrappers;
@@ -23,7 +24,7 @@ namespace ProductManagement.Application.Features.Queries.GetAllProducts
         }
         public async Task<ServiceResponse<List<ProductViewDto>>> Handle(GetAllProductQuerry request, CancellationToken cancellationToken)
         {
-            var products = await productRepository.GetAllAsync();
+            var products = await productRepository.GetAll().Skip(request.Page * request.Size).Take(request.Size).ToListAsync();
             if (!products.Any())
                 return ServiceResponse<List<ProductViewDto>>.Fail("No product is found",404,true);
             var viewModel = mapper.Map<List<ProductViewDto>>(products);

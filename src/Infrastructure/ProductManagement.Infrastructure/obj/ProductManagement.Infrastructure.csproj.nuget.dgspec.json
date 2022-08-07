@@ -4,14 +4,102 @@
     "D:\\Desktop\\Patika\\Projects\\UnionArchitectureProject\\ProductManagementAPI\\src\\Infrastructure\\ProductManagement.Infrastructure\\ProductManagement.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\Desktop\\Patika\\Projects\\UnionArchitectureProject\\ProductManagementAPI\\src\\Infrastructure\\ProductManagement.Infrastructure\\ProductManagement.Infrastructure.csproj": {
+    "D:\\Desktop\\Patika\\Projects\\UnionArchitectureProject\\ProductManagementAPI\\src\\Core\\ProductManagement.Application\\ProductManagement.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\Patika\\Projects\\UnionArchitectureProject\\ProductManagementAPI\\src\\Infrastructure\\ProductManagement.Infrastructure\\ProductManagement.Infrastructure.csproj",
-        "projectName": "ProductManagement.Infrastructure",
-        "projectPath": "D:\\Desktop\\Patika\\Projects\\UnionArchitectureProject\\ProductManagementAPI\\src\\Infrastructure\\ProductManagement.Infrastructure\\ProductManagement.Infrastructure.csproj",
+        "projectUniqueName": "D:\\Desktop\\Patika\\Projects\\UnionArchitectureProject\\ProductManagementAPI\\src\\Core\\ProductManagement.Application\\ProductManagement.Application.csproj",
+        "projectName": "ProductManagement.Application",
+        "projectPath": "D:\\Desktop\\Patika\\Projects\\UnionArchitectureProject\\ProductManagementAPI\\src\\Core\\ProductManagement.Application\\ProductManagement.Application.csproj",
         "packagesPath": "C:\\Users\\burak\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\Patika\\Projects\\UnionArchitectureProject\\ProductManagementAPI\\src\\Infrastructure\\ProductManagement.Infrastructure\\obj\\",
+        "outputPath": "D:\\Desktop\\Patika\\Projects\\UnionArchitectureProject\\ProductManagementAPI\\src\\Core\\ProductManagement.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\burak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Desktop\\Patika\\Projects\\UnionArchitectureProject\\ProductManagementAPI\\src\\Core\\ProductManagement.Domain\\ProductManagement.Domain.csproj": {
+                "projectPath": "D:\\Desktop\\Patika\\Projects\\UnionArchitectureProject\\ProductManagementAPI\\src\\Core\\ProductManagement.Domain\\ProductManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Desktop\\Patika\\Projects\\UnionArchitectureProject\\ProductManagementAPI\\src\\Core\\ProductManagement.Domain\\ProductManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Desktop\\Patika\\Projects\\UnionArchitectureProject\\ProductManagementAPI\\src\\Core\\ProductManagement.Domain\\ProductManagement.Domain.csproj",
+        "projectName": "ProductManagement.Domain",
+        "projectPath": "D:\\Desktop\\Patika\\Projects\\UnionArchitectureProject\\ProductManagementAPI\\src\\Core\\ProductManagement.Domain\\ProductManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\burak\\.nuget\\packages\\",
+        "outputPath": "D:\\Desktop\\Patika\\Projects\\UnionArchitectureProject\\ProductManagementAPI\\src\\Core\\ProductManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\burak\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -50,6 +138,73 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Desktop\\Patika\\Projects\\UnionArchitectureProject\\ProductManagementAPI\\src\\Infrastructure\\ProductManagement.Infrastructure\\ProductManagement.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Desktop\\Patika\\Projects\\UnionArchitectureProject\\ProductManagementAPI\\src\\Infrastructure\\ProductManagement.Infrastructure\\ProductManagement.Infrastructure.csproj",
+        "projectName": "ProductManagement.Infrastructure",
+        "projectPath": "D:\\Desktop\\Patika\\Projects\\UnionArchitectureProject\\ProductManagementAPI\\src\\Infrastructure\\ProductManagement.Infrastructure\\ProductManagement.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\burak\\.nuget\\packages\\",
+        "outputPath": "D:\\Desktop\\Patika\\Projects\\UnionArchitectureProject\\ProductManagementAPI\\src\\Infrastructure\\ProductManagement.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\burak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Desktop\\Patika\\Projects\\UnionArchitectureProject\\ProductManagementAPI\\src\\Core\\ProductManagement.Application\\ProductManagement.Application.csproj": {
+                "projectPath": "D:\\Desktop\\Patika\\Projects\\UnionArchitectureProject\\ProductManagementAPI\\src\\Core\\ProductManagement.Application\\ProductManagement.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.13.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

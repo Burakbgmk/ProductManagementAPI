@@ -21,9 +21,8 @@ namespace ProductManagement.API.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetAll()
+        public async Task<IActionResult> GetAll([FromQuery] GetAllCategoryQuerry querry)
         {
-            var querry = new GetAllCategoryQuerry();
             return Ok(await mediator.Send(querry));
         }
 

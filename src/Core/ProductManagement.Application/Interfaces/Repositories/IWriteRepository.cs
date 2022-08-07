@@ -10,8 +10,10 @@ namespace ProductManagement.Application.Interfaces.Repositories
     public interface IWriteRepository<TEntity> : IRepository<TEntity> where TEntity : BaseEntity
     {
         Task<TEntity> AddAsync(TEntity entity);
-        TEntity UpdateAsync(TEntity entity);
-        Task DeleteAsync(TEntity entity);
+        Task<List<TEntity>> AddRangeAsync(List<TEntity> entities);
+        TEntity Update(TEntity entity);
+        void Delete(TEntity entity);
+        void DeleteRange(List<TEntity> entities);
         Task<int> CommitAsync();
     }
 }

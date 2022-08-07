@@ -10,5 +10,6 @@ namespace ProductManagement.Domain.Entities
         public Guid CategoryId { get; set; }
         public Category Category { get; set; }
         public ProductFeature Feature { get; set; }
+        public ICollection<ProductImageFile> ProductImageFiles { get; set; }
     }
 }

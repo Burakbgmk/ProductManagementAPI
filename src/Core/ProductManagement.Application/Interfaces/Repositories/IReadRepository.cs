@@ -9,7 +9,7 @@ namespace ProductManagement.Application.Interfaces.Repositories
 {
     public interface IReadRepository<T> : IRepository<T> where T : BaseEntity
     {
-        Task<List<T>> GetAllAsync();
-        Task<T> GetByIdAsync(Guid id);
+        IQueryable<T> GetAll(bool isTracking = false);
+        Task<T> GetByIdAsync(Guid id, bool isTracking = false);
     }
 }

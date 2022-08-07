@@ -23,7 +23,7 @@ namespace ProductManagement.Application.Features.Commands.Category.UpdateCategor
         public async Task<ServiceResponse<Guid>> Handle(UpdateCategoryCommand request, CancellationToken cancellationToken)
         {
             var category = await readRepository.GetByIdAsync(request.Id);
-            var updatedCategory = writeRepository.UpdateAsync(category);
+            var updatedCategory = writeRepository.Update(category);
             updatedCategory.Name = request.Name != default ? request.Name : category.Name;
             await writeRepository.CommitAsync();
             return ServiceResponse<Guid>.Success(request.Id,200);

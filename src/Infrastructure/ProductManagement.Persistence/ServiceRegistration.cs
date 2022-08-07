@@ -15,6 +15,8 @@ namespace ProductManagement.Persistence
             serviceCollection.AddTransient<IProductWriteRepository, ProductWriteRepository>();
             serviceCollection.AddTransient<ICategoryReadRepository, CategoryReadRepository>();
             serviceCollection.AddTransient<ICategoryWriteRepository, CategoryWriteRepository>();
+            serviceCollection.AddTransient<IProductImageFileReadRepository, ProductImageFileReadRepository>();
+            serviceCollection.AddTransient<IProductImageFileWriteRepository, ProductImageFileWriteRepository>();
         }
     }
 }

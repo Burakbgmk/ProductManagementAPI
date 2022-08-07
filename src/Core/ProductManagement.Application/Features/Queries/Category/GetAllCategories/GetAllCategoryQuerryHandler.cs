@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using MediatR;
+using Microsoft.EntityFrameworkCore;
 using ProductManagement.Application.Dtos;
 using ProductManagement.Application.Interfaces.Repositories;
 using ProductManagement.Application.Wrappers;
@@ -24,7 +25,7 @@ namespace ProductManagement.Application.Features.Queries.Category.GetAllCategori
 
         public async Task<ServiceResponse<List<CategoryViewDto>>> Handle(GetAllCategoryQuerry request, CancellationToken cancellationToken)
         {
-            var categories = await categoryRepository.GetAllAsync();
+            var categories = await categoryRepository.GetAll().Skip(request.Page * request.Size).Take(request.Size).ToListAsync();
             if (!categories.Any())
                 return ServiceResponse<List<CategoryViewDto>>.Fail("No category is found!",404,true);
             var viewModel = mapper.Map<List<CategoryViewDto>>(categories);

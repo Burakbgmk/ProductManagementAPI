@@ -6,5 +6,7 @@ namespace ProductManagement.Application.Features.Queries.Category.GetAllCategori
 {
     public class GetAllCategoryQuerry : IRequest<ServiceResponse<List<CategoryViewDto>>>
     {
+        public int Page { get; set; } = 0;
+        public int Size { get; set; } = 5;
     }
 }

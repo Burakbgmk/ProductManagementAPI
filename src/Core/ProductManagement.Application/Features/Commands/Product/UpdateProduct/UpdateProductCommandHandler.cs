@@ -25,7 +25,7 @@ namespace ProductManagement.Application.Features.Commands.UpdateProduct
         public async Task<ServiceResponse<Guid>> Handle(UpdateProductCommand request, CancellationToken cancellationToken)
         {
             var product = await readRepository.GetByIdAsync(request.Id);
-            var updatedProduct = writeRepository.UpdateAsync(product);
+            var updatedProduct = writeRepository.Update(product);
             updatedProduct.Name = request.Name != default ? request.Name : product.Name;
             updatedProduct.Quantity = request.Quantity != default ? request.Quantity : product.Quantity;
             updatedProduct.Price = request.Value != default ? request.Value : product.Price;

@@ -10,5 +10,6 @@ namespace ProductManagement.Domain.Common
     {
         public Guid Id { get; set; }
         public DateTime CreateDate { get; set; }
+        virtual public DateTime UpdatedDate { get; set; } 
     }
 }

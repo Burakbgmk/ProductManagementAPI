@@ -3,9 +3,12 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ProductManagement.Application.Features.Commands.CreateProduct;
 using ProductManagement.Application.Features.Commands.DeleteProduct;
+using ProductManagement.Application.Features.Commands.ProductImageFile.DeleteProductImageFile;
+using ProductManagement.Application.Features.Commands.ProductImageFile.UploadProductImageFile;
 using ProductManagement.Application.Features.Commands.UpdateProduct;
 using ProductManagement.Application.Features.Queries.GetAllProducts;
 using ProductManagement.Application.Features.Queries.GetProductById;
+using ProductManagement.Application.Features.Queries.ProductImageFile.GetProductImages;
 using ProductManagement.Application.Interfaces.Repositories;
 
 namespace ProductManagement.API.Controllers
@@ -22,9 +25,8 @@ namespace ProductManagement.API.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetAll()
+        public async Task<IActionResult> GetAll([FromQuery] GetAllProductQuerry querry)
         {
-            var querry = new GetAllProductQuerry();
             return Ok(await mediator.Send(querry));
         }
 
@@ -51,5 +53,27 @@ namespace ProductManagement.API.Controllers
         {
             return Ok(await mediator.Send(command));
         }
+
+
+        [HttpPost("[action]")]
+        public async Task<IActionResult> Upload([FromQuery] UploadProductImageFileCommand command)
+        {
+            command.Files = Request.Form.Files;
+            return Ok(await mediator.Send(command));
+        }
+
+        [HttpGet("[action]/{id}")]
+        public async Task<IActionResult> GetProductImages([FromRoute] GetProductImagesQuerry request)
+        {
+            return Ok(await mediator.Send(request));
+        }
+
+        [HttpDelete("[action]/{id}")]
+        public async Task<IActionResult> DeleteProductImage([FromRoute] DeleteProductImageFileCommand command, [FromQuery] string imageId)
+        {
+            command.ImageId = imageId;
+            return Ok(await mediator.Send(command));
+        }
+
     }
 }

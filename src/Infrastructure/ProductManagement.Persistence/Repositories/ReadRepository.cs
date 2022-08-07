@@ -20,13 +20,18 @@ namespace ProductManagement.Persistence.Repositories
         }
         public DbSet<T> dbSet => context.Set<T>();
 
-        public async Task<List<T>> GetAllAsync()
+        public IQueryable<T> GetAll(bool isTracking = false)
         {
-            return await dbSet.AsNoTracking().ToListAsync();
+            var querry = dbSet.AsQueryable();
+            if (isTracking)
+                return querry;
+            return querry.AsNoTracking();
         }
 
-        public async Task<T> GetByIdAsync(Guid id)
+        public async Task<T> GetByIdAsync(Guid id, bool isTracking = false)
         {
+            if (isTracking)
+                return await dbSet.FirstOrDefaultAsync(x => x.Id == id);
             return await dbSet.AsNoTracking().FirstOrDefaultAsync(x => x.Id == id);
         }
     }

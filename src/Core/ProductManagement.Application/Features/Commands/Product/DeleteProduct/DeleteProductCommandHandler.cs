@@ -25,8 +25,8 @@ namespace ProductManagement.Application.Features.Commands.DeleteProduct
         public async Task<ServiceResponse<NoDataDto>> Handle(DeleteProductCommand request, CancellationToken cancellationToken)
         {
             var product = await readRepository.GetByIdAsync(request.Id);
-            await writeRepository.DeleteAsync(product);
-            await writeRepository.CommitAsync();
+            writeRepository.Delete(product);
+            writeRepository.CommitAsync();
             return ServiceResponse<NoDataDto>.Success(204);
         }
     }

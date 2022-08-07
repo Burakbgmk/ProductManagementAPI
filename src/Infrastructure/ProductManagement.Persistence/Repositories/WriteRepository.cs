@@ -25,13 +25,23 @@ namespace ProductManagement.Persistence.Repositories
             await dbSet.AddAsync(entity);
             return entity;
         }
+        public async Task<List<TEntity>> AddRangeAsync(List<TEntity> entities)
+        {
+            await dbSet.AddRangeAsync(entities);
+            return entities;
+        }
 
-        public async Task DeleteAsync(TEntity entity)
+        public void Delete(TEntity entity)
         {
             dbSet.Remove(entity);
         }
 
-        public TEntity UpdateAsync(TEntity entity)
+        public void DeleteRange(List<TEntity> entities)
+        {
+            dbSet.RemoveRange(entities);
+        }
+
+        public TEntity Update(TEntity entity)
         {
             context.Entry(entity).State = EntityState.Modified;
             return entity;

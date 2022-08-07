@@ -23,8 +23,8 @@ namespace ProductManagement.Application.Features.Commands.Category.DeleteCategor
         public async Task<ServiceResponse<NoDataDto>> Handle(DeleteCategoryCommand request, CancellationToken cancellationToken)
         {
             var category = await readRepository.GetByIdAsync(request.Id);
-            await writeRepository.DeleteAsync(category);
-            await writeRepository.CommitAsync();
+            writeRepository.Delete(category);
+            writeRepository.CommitAsync();
             return ServiceResponse<NoDataDto>.Success(204);
         }
     }
