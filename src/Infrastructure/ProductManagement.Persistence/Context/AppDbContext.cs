@@ -11,9 +11,10 @@ namespace ProductManagement.Persistence.Context
 
         }
 
-
+        public DbSet<Category> Categories { get; set; }
         public DbSet<Product> Products {get; set;}
+        public DbSet<Domain.Entities.File> Files { get; set; }
+        public DbSet<ProductImageFile> ProductImageFiles { get; set; }
 
-        
     }
 }

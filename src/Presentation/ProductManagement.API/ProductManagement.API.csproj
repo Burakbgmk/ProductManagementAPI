@@ -16,7 +16,12 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Core\ProductManagement.Application\ProductManagement.Application.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\ProductManagement.Infrastructure\ProductManagement.Infrastructure.csproj" />
     <ProjectReference Include="..\..\Infrastructure\ProductManagement.Persistence\ProductManagement.Persistence.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
   </ItemGroup>
 
 </Project>

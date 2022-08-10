@@ -32,7 +32,7 @@ namespace ProductManagement.Application.Features.Queries.ProductImageFile.GetPro
                 Id = p.Id
             }).ToList();
 
-            return ServiceResponse<List<GetProductImagesQuerryResponse>>.Success(204);
+            return ServiceResponse<List<GetProductImagesQuerryResponse>>.Success(result, 200);
         }
     }
 }

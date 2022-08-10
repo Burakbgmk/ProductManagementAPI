@@ -1,4 +1,6 @@
 using ProductManagement.Application;
+using ProductManagement.Infrastructure;
+using ProductManagement.Infrastructure.Services.Storage.Local;
 using ProductManagement.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,6 +13,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddPeristanceServices();
 builder.Services.AddApplicationRegistration();
+builder.Services.AddInfrastructureServices();
+builder.Services.AddStorage<LocalStorage>();
 
 var app = builder.Build();
 

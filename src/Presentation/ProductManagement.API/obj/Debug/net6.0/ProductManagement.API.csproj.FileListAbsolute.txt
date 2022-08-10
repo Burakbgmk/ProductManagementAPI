@@ -71,3 +71,12 @@ D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Pre
 D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Presentation\ProductManagement.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Presentation\ProductManagement.API\bin\Debug\net6.0\Humanizer.dll
 D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Presentation\ProductManagement.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Presentation\ProductManagement.API\bin\Debug\net6.0\Azure.Core.dll
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Presentation\ProductManagement.API\bin\Debug\net6.0\Azure.Storage.Blobs.dll
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Presentation\ProductManagement.API\bin\Debug\net6.0\Azure.Storage.Common.dll
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Presentation\ProductManagement.API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Presentation\ProductManagement.API\bin\Debug\net6.0\System.IO.Hashing.dll
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Presentation\ProductManagement.API\bin\Debug\net6.0\System.Memory.Data.dll
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Presentation\ProductManagement.API\bin\Debug\net6.0\ProductManagement.Infrastructure.dll
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Presentation\ProductManagement.API\bin\Debug\net6.0\ProductManagement.Infrastructure.pdb
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Presentation\ProductManagement.API\bin\Debug\net6.0\ProductManagement.API.staticwebassets.runtime.json

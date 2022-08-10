@@ -1,11 +1,37 @@
 {
   "Version": 1,
-  "Hash": "1gu1NQ1tJumqN4LcHhjkdtPtQV9FIwPCKXG89NcK4y4=",
+  "Hash": "SVc85auFw4Hpu6ZWOoeqLN9Eyk78rjyiCD7X4JVdVMM=",
   "Source": "ProductManagement.API",
   "BasePath": "_content/ProductManagement.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "ProductManagement.API\\wwwroot",
+      "Source": "ProductManagement.API",
+      "ContentRoot": "D:\\Desktop\\Patika\\Projects\\UnionArchitectureProject\\ProductManagementAPI\\src\\Presentation\\ProductManagement.API\\wwwroot\\",
+      "BasePath": "_content/ProductManagement.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Desktop\\Patika\\Projects\\UnionArchitectureProject\\ProductManagementAPI\\src\\Presentation\\ProductManagement.API\\wwwroot\\photos\\Files",
+      "SourceId": "ProductManagement.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Desktop\\Patika\\Projects\\UnionArchitectureProject\\ProductManagementAPI\\src\\Presentation\\ProductManagement.API\\wwwroot\\",
+      "BasePath": "_content/ProductManagement.API",
+      "RelativePath": "photos/Files",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\photos\\Files"
+    }
+  ]
 }

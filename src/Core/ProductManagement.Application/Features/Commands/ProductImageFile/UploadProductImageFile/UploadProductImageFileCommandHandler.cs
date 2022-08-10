@@ -25,11 +25,9 @@ namespace ProductManagement.Application.Features.Commands.ProductImageFile.Uploa
         }
         public async Task<ServiceResponse<NoDataDto>> Handle(UploadProductImageFileCommand request, CancellationToken cancellationToken)
         {
-            List<(string fileName, string pathOrContainerName)> result = await _storageService.UploadAsync("photo-images", request.Files);
+            List<(string fileName, string pathOrContainerName)> result = await _storageService.UploadAsync("photos", request.Files);
 
-
-            Domain.Entities.Product product = await _productReadRepository.GetByIdAsync(request.Id);
-
+            Domain.Entities.Product product = await _productReadRepository.GetByIdAsync(request.Id, true);
 
             await _productImageFileWriteRepository.AddRangeAsync(result.Select(r => new Domain.Entities.ProductImageFile
             {

@@ -62,16 +62,16 @@ namespace ProductManagement.API.Controllers
             return Ok(await mediator.Send(command));
         }
 
-        [HttpGet("[action]/{id}")]
+        [HttpGet("[action]/{Id}")]
         public async Task<IActionResult> GetProductImages([FromRoute] GetProductImagesQuerry request)
         {
             return Ok(await mediator.Send(request));
         }
 
-        [HttpDelete("[action]/{id}")]
-        public async Task<IActionResult> DeleteProductImage([FromRoute] DeleteProductImageFileCommand command, [FromQuery] string imageId)
+        [HttpDelete("[action]/{Id},{ImageId}")]
+        public async Task<IActionResult> DeleteProductImage([FromRoute] DeleteProductImageFileCommand command)
         {
-            command.ImageId = imageId;
+            command.ImageId = command.ImageId;
             return Ok(await mediator.Send(command));
         }
 

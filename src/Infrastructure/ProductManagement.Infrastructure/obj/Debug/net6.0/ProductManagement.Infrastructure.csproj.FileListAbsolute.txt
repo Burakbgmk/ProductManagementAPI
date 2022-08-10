@@ -10,3 +10,8 @@ D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Inf
 D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Infrastructure\ProductManagement.Infrastructure\obj\Debug\net6.0\refint\ProductManagement.Infrastructure.dll
 D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Infrastructure\ProductManagement.Infrastructure\obj\Debug\net6.0\ProductManagement.Infrastructure.pdb
 D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Infrastructure\ProductManagement.Infrastructure\obj\Debug\net6.0\ref\ProductManagement.Infrastructure.dll
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Infrastructure\ProductManagement.Infrastructure\bin\Debug\net6.0\ProductManagement.Application.dll
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Infrastructure\ProductManagement.Infrastructure\bin\Debug\net6.0\ProductManagement.Domain.dll
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Infrastructure\ProductManagement.Infrastructure\bin\Debug\net6.0\ProductManagement.Application.pdb
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Infrastructure\ProductManagement.Infrastructure\bin\Debug\net6.0\ProductManagement.Domain.pdb
+D:\Desktop\Patika\Projects\UnionArchitectureProject\ProductManagementAPI\src\Infrastructure\ProductManagement.Infrastructure\obj\Debug\net6.0\ProductManagement.Infrastructure.csproj.CopyComplete
