@@ -5,4 +5,4 @@
 - **C# and .NET Core 6** is used for development.
 - **SqlServer** is used as a relational-database.
 - **Onioun Architecture** is used in the project.
-- **Local Storage"" is established for keeping bigger data such as images or excel files.
+- **Local Storage** is established for keeping bigger data such as images or excel files.
